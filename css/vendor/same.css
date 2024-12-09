@@ -12,6 +12,11 @@
     padding-right: 7.5%;
 }
 
+.section-padding.container-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .contact-btn {
     background: linear-gradient(to right, #42b773 0%, #a9dc56 100%);
     font-size: 24px;
@@ -59,4 +64,12 @@
     width: 30%;
     height: 2px;
     margin: 20px auto;
+}
+
+.section-top-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
 }

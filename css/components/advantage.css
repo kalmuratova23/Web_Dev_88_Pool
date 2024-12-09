@@ -70,3 +70,32 @@
 .main-advantages .home-link i {
     color: #fff;
 }
+
+.main-offers {
+    background: linear-gradient(to right, #42b773 0%, #a9dc56 100%);
+}
+
+.offer-item {
+    width: calc(100% / 3 - 3%);
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.offer-item a {
+    display: block;
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.offer-item a:hover {
+    color: #42464f;
+    text-decoration: underline;
+}
+
+.offer-item img {
+    border-radius: 50%;
+}
