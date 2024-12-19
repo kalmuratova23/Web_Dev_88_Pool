@@ -1,3 +1,56 @@
+.main-services {
+    position: relative;
+}
+
+.main-services::after {
+    content: '';
+    width: 157px;
+    height: 68px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/widgets/add-w.png');
+}
+
+
 .black.section-top-title {
     color: #42455f;
+}
+
+.servise-item {
+    line-height: 1.5;
+}
+
+.servise-item a {
+    display: block;
+    color: #42464f;
+    font-size: 22px;
+    font-weight: bold;
+    transition: .5s;
+    margin: 20px 0 10px;
+}
+
+.servise-item a:hover {
+    color: #42b773;
+    text-decoration: underline;
+}
+
+.servise-item i {
+    font-size: 36px;
+    color: #42b773;
+    transition: .5s;
+}
+
+.servise-item i:hover {
+    color: #a9dc56;
+
+}
+
+.servise-item p {
+    font-size: 12px;
+    color: #658997;
 }
